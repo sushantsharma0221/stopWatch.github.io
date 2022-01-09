@@ -1,0 +1,59 @@
+*{
+    font-family:roboto;
+    margin: 0;
+    padding: 0;
+}
+.myImage{
+    position: absolute;
+    height: 40vh;
+    width:20vw;
+    top: 4vh;
+    left: 38vw;
+    opacity: 97%;
+    -webkit-filter:drop-shadow(5px 5px 5px #222);
+
+}
+.container{
+    margin-top: 10vh;
+    padding: 20px 20px;
+}
+
+body{height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right,rgb(48, 197, 197),rgb(43, 138, 201));
+    color: aliceblue;
+}
+.timer{
+    font-size: 100px;
+    text-shadow:5px 5px 20px rgb(61, 61, 61);
+}
+.buttons{
+    margin-left: 6vh;
+    margin-top: 10vh;
+}
+.txt{
+    font-size: 30px;
+    text-shadow:5px 5px 5px 20px rgb(61, 61, 61);
+}
+.btn{margin-left: 5vh;
+    font-size: 20px;
+    border: none;
+    border-radius: 12px;
+    color: aliceblue;
+    height: 7vh;
+    width: 20vh;
+    box-shadow: 5px 5px 15px rgba(61, 61, 61, 0.712);
+}
+
+#start{
+    background-image: linear-gradient(to right,rgb(59, 141, 103),rgb(23, 202, 187));
+}
+
+#stop{
+    background-image: linear-gradient(to right,rgb(197, 48, 48),rgb(175, 25, 87));
+}
+#reset{
+    background-image: linear-gradient(to right,rgb(209, 156, 43),rgb(203, 206, 15));
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="/script.js"></script>
+</head>
+<body>
+    <div class="image">
+        <img class="myImage" src="/stopwatch.png">
+    </div>
+    <div class="container">
+        <div class="time">
+            <span class="timer" id="Hrs">00</span>
+            <span class="txt">Hrs</span>
+            <span class="timer" id="Min">00</span>
+            <span class="txt">Min</span>
+            <span class="timer" id="Sec">00</span>
+            <span class="txt">Sec</span>
+            <span class="timer" id="Milsec">00</span>
+            <span class="txt">Milsec</span>
+        </div>
+        <div class="buttons">
+        <button class="btn" id="start" onclick="start()">Start</button>
+        <button class="btn" id="stop" onclick="stop()">Stop</button>
+        <button class="btn" id="reset" onclick="reset()">Reset</button></div>
+    </div>
+</body>
+</html>
